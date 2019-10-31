@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sortedcollegelife">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".otpverify"></activity>
+        <activity android:name=".Quesdecesion"></activity>
+        <activity android:name=".Solutionlist" />
+        <activity android:name=".Quora" />
+        <activity android:name=".SolveQues" />
+        <activity android:name=".QuesAsk" />
+        <activity android:name=".alarm" />
+        <activity android:name=".showTimeTable" />
+        <activity android:name=".timetable_main" />
+        <activity android:name=".timetable" />
+        <activity android:name=".MainChat" />
+        <activity android:name=".ChatList" />
+        <activity android:name=".otpverify" />
         <activity android:name=".studentmain" />
         <activity android:name=".teacherlogin" />
         <activity android:name=".studentlogin" />
@@ -20,6 +33,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".AlarmReceiver" />
     </application>
 
 </manifest>

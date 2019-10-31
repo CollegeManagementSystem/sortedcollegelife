@@ -14,6 +14,8 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
 
     Button myloginstudent,myloginteacher;
+    public static int checkauth=0;
+    public static int timetable_status=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

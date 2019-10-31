@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <RelativeLayout
+        android:id="@+id/ques_basic"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/contactimage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/ic_teacher" />
+        <TextView
+            android:id="@+id/contactedit"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="@android:color/holo_blue_dark"/>
+
+    </RelativeLayout>
+</RelativeLayout>

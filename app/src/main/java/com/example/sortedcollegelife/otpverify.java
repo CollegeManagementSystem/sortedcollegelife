@@ -1,7 +1,9 @@
 package com.example.sortedcollegelife;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.CountDownTimer;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,10 +21,16 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.concurrent.TimeUnit;
+
+import static com.example.sortedcollegelife.MainActivity.checkauth;
+import static com.example.sortedcollegelife.MainActivity.timetable_status;
 
 public class otpverify extends AppCompatActivity {
 
@@ -34,7 +42,7 @@ public class otpverify extends AppCompatActivity {
     private String mVerificationId,code;
     private PhoneAuthProvider.ForceResendingToken mResendToken;
     DatabaseReference mdata;
-    int otpFlag =0;
+    int otpFlag =0,f=0;
     private EditText codeText;
     private PhoneAuthProvider.OnVerificationStateChangedCallbacks mCallbacks;
     String phoneNumber,studentname,studentroll,studentclass;
@@ -44,6 +52,8 @@ public class otpverify extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_otpverify);
         UI_initialisation();
+        checkauth=1;
+
         authinitialisation();
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
                 phoneNumber,        // Phone number to verify
@@ -88,26 +98,19 @@ public class otpverify extends AppCompatActivity {
 
                 signInWithPhoneAuthCredential(phoneAuthCredential);
                 Intent I1=new Intent(otpverify.this, studentmain.class);
+                I1.putExtra("studentname",studentname);
+                I1.putExtra("studentroll",studentroll);
+                I1.putExtra("studentclass",studentclass);
+                I1.putExtra("studentphone",phoneNumber);
+                f=1;
                 startActivity(I1);
-                mdata= FirebaseDatabase.getInstance().getReference();
-                mdata.child("Student").child(mAuth.getUid()).child("Student_Name").push();
-                mdata.child("Student").child(mAuth.getUid()).child("Student_Name").setValue(studentname);
-
-                int a1;
-                mdata.child("Student").child(mAuth.getUid()).child("PhoneNo").push();
-                mdata.child("Student").child(mAuth.getUid()).child("PhoneNo").setValue(phoneNumber);
-                mdata.child("Student").child(mAuth.getUid()).child("Roll_Number").push();
-                mdata.child("Student").child(mAuth.getUid()).child("Roll_Number").setValue(studentroll);
-                mdata.child("Student").child(mAuth.getUid()).child("Student_class").push();
-                mdata.child("Student").child(mAuth.getUid()).child("Student_class").setValue(studentroll);
-
                Toast.makeText(otpverify.this,"welcome",Toast.LENGTH_LONG).show();
                finish();
             }
             @Override
             public void onVerificationFailed(FirebaseException e) {
 
-                Toast.makeText(otpverify.this,"error in verification",Toast.LENGTH_LONG).show();
+                  Toast.makeText(otpverify.this,"error in verification",Toast.LENGTH_LONG).show();
 
             }
             @Override
@@ -127,8 +130,15 @@ public class otpverify extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
+
                             Intent loggedIn = new Intent(otpverify.this, studentmain.class);
                             //loggedIn.putExtra(Bitmap.Config.PHONE_NUMBER,phoneVerify);
+                            if(f==0){
+                                loggedIn.putExtra("studentname", studentname);
+                                loggedIn.putExtra("studentroll", studentroll);
+                                loggedIn.putExtra("studentclass", studentclass);
+                                loggedIn.putExtra("studentphone", phoneNumber);
+                            }
 
                             startActivity(loggedIn);
 

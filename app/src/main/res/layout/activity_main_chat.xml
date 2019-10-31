@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainChat">
+
+    <RelativeLayout
+        android:id="@+id/mainchattop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_teacher" />
+
+        <TextView
+            android:id="@+id/mainchatname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="70dp" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainchatrecycle"
+        android:layout_below="@+id/mainchattop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/mainchatbelow"
+        android:layout_marginTop="20dp"
+       ></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/mainchatbelow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray">
+
+        <EditText
+            android:id="@+id/mainchatsendtext"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/mainchatsendbutton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_send" />
+    </LinearLayout>
+</RelativeLayout>

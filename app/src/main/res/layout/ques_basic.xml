@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+        <RelativeLayout
+            android:id="@+id/ques_basic"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+            <ImageView
+                android:id="@+id/quesimage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/ic_doubt_ques" />
+            <TextView
+                android:id="@+id/quesedit"
+                android:layout_width="350dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="70dp"
+                android:textColor="@android:color/holo_blue_dark"/>
+            <ImageButton
+                android:id="@+id/quesnext"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="360dp"/>
+        </RelativeLayout>
+</RelativeLayout>
