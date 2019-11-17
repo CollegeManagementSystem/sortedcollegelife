@@ -1,8 +1,11 @@
 package com.example.sortedcollegelife;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class showTimeTable extends AppCompatActivity {
@@ -16,6 +19,14 @@ public class showTimeTable extends AppCompatActivity {
         mdata=new SquiliteDatabase(this);
         Cursor c1=mdata.fetch("1","1");
         int i=0;
+        Button update=findViewById(R.id.update);
+        update.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent I1=new Intent(showTimeTable.this,timetable.class);
+                startActivity(I1);
+            }
+        });
         while (c1.moveToNext()){
             if(i==0){
 

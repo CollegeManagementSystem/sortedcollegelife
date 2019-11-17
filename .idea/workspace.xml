@@ -10,201 +10,41 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="509fe7a4-00a6-4f56-b34d-40b66a66c175" name="Default Changelist" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/AlarmReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ChatList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ContactAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/LiveChatData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/QuesAsk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/QuesData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Ques_Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Quesdecesion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Quora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolutionAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Solutionlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolveQues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SquiliteDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/doubtsession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/mainchatadapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable_main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_chat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_doubt_ques.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_message.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_send.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_doubtsession.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_chat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quesdecesion.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_solutionlist.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_basic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/solution_basic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/import-summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out/org/opencv/engine/OpenCVEngineInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/generated/source/buildConfig/debug/org/opencv/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/lint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/openCVLibrary341.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/aidl/org/opencv/engine/OpenCVEngineInterface.aidl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/AsyncServiceHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/BaseLoaderCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/Camera2Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraBridgeViewBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraGLRendererBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraGLSurfaceView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/CameraRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/FpsMeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/InstallCallbackInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/JavaCamera2View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/JavaCameraView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/LoaderCallbackInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/OpenCVLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/StaticHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/android/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/Calib3d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/StereoBM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/StereoMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/calib3d/StereoSGBM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Core.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/CvException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/CvType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/DMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/KeyPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Mat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfByte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfDMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfDouble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfFloat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfFloat4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfFloat6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfInt4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfKeyPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint2f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfPoint3f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfRect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/MatOfRect2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Point3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Rect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Rect2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/RotatedRect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Scalar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/Size.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/TermCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/core/TickMeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/DictValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/Dnn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/dnn/Net.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/AKAZE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/AgastFeatureDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BFMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BOWImgDescriptorExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BOWKMeansTrainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BOWTrainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/BRISK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/DescriptorExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/DescriptorMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/FastFeatureDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/Feature2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/FeatureDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/Features2d.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/FlannBasedMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/GFTTDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/KAZE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/MSER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/ORB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/features2d/Params.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgcodecs/Imgcodecs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/CLAHE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Imgproc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/LineSegmentDetector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Moments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/imgproc/Subdiv2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/ANN_MLP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/ANN_MLP_ANNEAL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/Boost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/DTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/EM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/KNearest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/LogisticRegression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/Ml.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/NormalBayesClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/ParamGrid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/RTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/SVM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/SVMSGD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/StatModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/ml/TrainData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/BaseCascadeClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/CascadeClassifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/HOGDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/objdetect/Objdetect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/osgi/OpenCVInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/osgi/OpenCVNativeLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/AlignExposures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/AlignMTB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/CalibrateCRF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/CalibrateDebevec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/CalibrateRobertson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeDebevec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeExposures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeMertens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/MergeRobertson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/Photo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/Tonemap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapDrago.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapDurand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapMantiuk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/photo/TonemapReinhard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/utils/Converters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/BackgroundSubtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/BackgroundSubtractorKNN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/BackgroundSubtractorMOG2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/DenseOpticalFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/DualTVL1OpticalFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/FarnebackOpticalFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/KalmanFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/SparseOpticalFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/SparsePyrLKOpticalFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/video/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/videoio/VideoCapture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/videoio/VideoWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/java/org/opencv/videoio/Videoio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openCVLibrary341/src/main/res/values/attrs.xml" afterDir="false" />
+    <list default="true" id="509fe7a4-00a6-4f56-b34d-40b66a66c175" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_gif_android_gif_drawable_1_2_19_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pl_droidsonroids_relinker_1_3_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmainNavigation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ab.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/google1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_manage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_send.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_share.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_timer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_toys_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/student.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_studentmain_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_studentmain_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_studentmain_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/drawer_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/classAnalysis.bin" afterDir="false" />
@@ -213,20 +53,34 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/otpverify.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/otpverify.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quesdecesion.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quesdecesion.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -276,50 +130,54 @@
     <session id="-1251239379">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.35" value="2" />
           <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.46" value="1" />
-          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.55" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="9" />
-          <entry key="java" value="76" />
+          <entry key="gradle" value="14" />
+          <entry key="java" value="119" />
           <entry key="json" value="1" />
-          <entry key="xml" value="58" />
+          <entry key="xml" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="9" />
-          <entry key="JAVA" value="76" />
+          <entry key="Groovy" value="14" />
+          <entry key="JAVA" value="119" />
           <entry key="JSON" value="1" />
-          <entry key="XML" value="58" />
+          <entry key="XML" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="16" />
-          <entry key="java" value="10538" />
-          <entry key="txt" value="25" />
-          <entry key="xml" value="2797" />
+          <entry key="gradle" value="24" />
+          <entry key="java" value="11302" />
+          <entry key="txt" value="27" />
+          <entry key="xml" value="4610" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Android Room SQL" value="1" />
-          <entry key="Groovy" value="16" />
-          <entry key="JAVA" value="10537" />
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="XML" value="2797" />
+          <entry key="Groovy" value="24" />
+          <entry key="JAVA" value="11301" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="XML" value="4610" />
         </counts>
       </usages-collector>
     </session>
@@ -327,70 +185,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="2448">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/LiveChatData.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ChatList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/doubtsession.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ContactAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openCVLibrary341/build/generated/source/buildConfig/debug/org/opencv/BuildConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_solutionlist.xml">
-          <provider editor-type-id="android-designer2" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+            <state relative-caret-position="748">
+              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -405,22 +221,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ChatList.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="67" selection-start-line="29" selection-start-column="5" selection-end-line="30" selection-end-column="67" />
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolutionAdapter.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Location.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="510">
+              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/doubtsession.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/contact_basic.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmainNavigation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="301" column="13" lean-forward="true" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SquiliteDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -431,7 +282,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="valueResourceFile" />
+        <option value="resourceFile" />
         <option value="layoutResourceFile" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -441,88 +295,83 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_teacherlogin.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_otpverify.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_studentlogin.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentdatabase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentlogin.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/contact_basic.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ContactAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ChatList.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/LiveChatData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/mainchatadapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_chat.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SquiliteDatabase.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable_main.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/otpverify.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/AlarmReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/alarm.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/doubtsession.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_doubtsession.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Quora.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/QuesAsk.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolveQues.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quesdecesion.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Ques_Adapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/solution_basic.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolutionAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_solutionlist.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Quesdecesion.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Solutionlist.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/nav_header.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/StudentMainNavigation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_student_main_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/otpverify.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header1.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_chat.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_quesdecesion.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Location.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/drawer_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/app_bar_studentmain_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_studentmain_navigation.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SquiliteDatabase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmainNavigation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="width" value="785" />
-    <option name="height" value="1030" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="sortedcollegelife" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sortedcollegelife" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="sortedcollegelife" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="sortedcollegelife" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="sortedcollegelife" type="1abcf292:AndroidViewProjectNode" />
@@ -535,27 +384,36 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="sortedcollegelife" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
             <path>
-              <item name="sortedcollegelife" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="sortedcollegelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sortedcollegelife" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="sortedcollegelife" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="sortedcollegelife" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sortedcollegelife" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="E:/Android" />
     <property name="device.picker.selection" value="PNXID19032700148" />
-    <property name="last_opened_file_path" value="B:/alarm-notifi-master/alarm-notifi-master" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/app" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -564,7 +422,11 @@
     <key name="android.template.packageName">
       <recent name="com.example.sortedcollegelife" />
     </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\KARAN KAPOOR\sortedcollegelife\app\src\main\res\drawable" />
       <recent name="C:\Users\KARAN KAPOOR\sortedcollegelife\app" />
     </key>
   </component>
@@ -693,14 +555,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568835406088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <created>1572523835209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1572523835209</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.15771812" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20121029" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -710,21 +579,21 @@
       <window_info anchor="bottom" id="Run" order="0" weight="0.32907802" />
       <window_info anchor="bottom" id="Logcat" order="1" weight="0.32907802" />
       <window_info anchor="bottom" id="TODO" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49932885" weight="0.32786885" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5026846" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49731544" weight="0.3134752" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49731544" visible="true" weight="0.31311476" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32786885" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.5010571" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" sideWeight="0.4989429" weight="0.3295302" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Preview" order="4" sideWeight="0.4989429" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Preview" order="4" sideWeight="0.4989429" weight="0.3290469" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info active="true" anchor="right" id="Assistant" order="6" visible="true" weight="0.18657719" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.1860817" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -768,7 +637,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java</url>
-          <line>48</line>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -780,43 +649,43 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>377</line>
+          <line>188</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>384</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>391</line>
+          <line>202</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>379</line>
+          <line>190</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>381</line>
+          <line>192</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>388</line>
+          <line>199</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>383</line>
+          <line>194</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
@@ -870,12 +739,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/mainchatadapter.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/mainchatadapter.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="168" />
@@ -918,7 +781,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java</url>
-          <line>166</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="190" />
         </line-breakpoint>
@@ -988,191 +851,62 @@
           <properties />
           <option name="timeStamp" value="224" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/QuesData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentlogin.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_chat.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/contact_basic.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentdatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timetable_main.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable_main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="89" column="42" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/otpverify.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SquiliteDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alarm_manager.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/AlarmManager.java" />
-    <entry file="file://E:/Android/sources/android-28/android/app/AlarmManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#959#1924#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/AlarmReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/alarm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="32" column="103" selection-start-line="32" selection-start-column="103" selection-end-line="32" selection-end-column="103" />
-          <folding>
-            <element signature="e#721#875#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ContactAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/mainchatadapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#658#659#0" expanded="true" />
@@ -1181,126 +915,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/teacherlogin.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/LiveChatData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable_main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_doubtsession.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Quora.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/QuesAsk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Ques_Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="337">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolveQues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="83" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Quesdecesion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Solutionlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="32" column="68" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/solution_basic.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="240">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chat_list.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_doubtsession.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_otpverify.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_ques_ask.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quesdecesion.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="308">
+          <caret line="36" column="78" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quora.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="138">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_show_time_table.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="464" column="63" lean-forward="true" selection-start-line="464" selection-start-column="7" selection-end-line="464" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1312,6 +1021,212 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_studentlogin.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_teacherlogin.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_studentmain_navigation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="36" selection-start-line="3" selection-start-column="4" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header1.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainchatsend.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainchatreceive.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/solution_basic.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timetable_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="464" column="28" selection-start-line="464" selection-start-column="28" selection-end-line="464" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_solve_ques.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/ques_basic.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_chat.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/drawer_menu.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain_navigation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_studentmain_navigation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/teacherlogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_studentmain_navigation.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_location.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Solutionlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentlogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/otpverify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_studentmain.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/showTimeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/timetable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2448">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ChatList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ContactAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/MainChat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1972">
@@ -1319,59 +1234,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/ChatList.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="67" selection-start-line="29" selection-start-column="5" selection-end-line="30" selection-end-column="67" />
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SolutionAdapter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/Location.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="510">
+          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/doubtsession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openCVLibrary341/build/generated/source/buildConfig/debug/org/opencv/BuildConfig.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/SquiliteDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="136">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/LiveChatData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_alarm.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/contact_basic.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/sortedcollegelife/studentmainNavigation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="301" column="13" lean-forward="true" selection-start-line="301" selection-start-column="13" selection-end-line="301" selection-end-column="13" />
         </state>
       </provider>
     </entry>

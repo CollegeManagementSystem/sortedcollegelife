@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">sortedcollegelife</string>
+    <string name="title_activity_studentmain_navigation">studentmainNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="google"><a href="https://www.google.com/"></a></string>
+    <string name="linkedin"><a href="https://www.linkedin.com/"></a></string>
+    <string name="github"><a href="https://www.github.com"></a></string>
 </resources>

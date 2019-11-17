@@ -97,7 +97,7 @@ public class otpverify extends AppCompatActivity {
             public void onVerificationCompleted(PhoneAuthCredential phoneAuthCredential) {
 
                 signInWithPhoneAuthCredential(phoneAuthCredential);
-                Intent I1=new Intent(otpverify.this, studentmain.class);
+                Intent I1=new Intent(otpverify.this, studentmainNavigation.class);
                 I1.putExtra("studentname",studentname);
                 I1.putExtra("studentroll",studentroll);
                 I1.putExtra("studentclass",studentclass);
@@ -131,7 +131,7 @@ public class otpverify extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // Sign in success, update UI with the signed-in user's information
 
-                            Intent loggedIn = new Intent(otpverify.this, studentmain.class);
+                            Intent loggedIn = new Intent(otpverify.this, studentmainNavigation.class);
                             //loggedIn.putExtra(Bitmap.Config.PHONE_NUMBER,phoneVerify);
                             if(f==0){
                                 loggedIn.putExtra("studentname", studentname);

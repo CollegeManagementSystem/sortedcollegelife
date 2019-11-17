@@ -12,18 +12,23 @@
         android:layout_height="70dp"
         android:text="Type Your Question"
         android:textSize="30dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textStyle="bold"/>
     <EditText
         android:id="@+id/questext"
         android:layout_marginTop="200dp"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
+        android:layout_marginLeft="80dp"
         android:layout_height="100dp" />
 
     <Button
         android:id="@+id/quesasksubmit"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="100dp"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="Submit ques"/>
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="350dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="Submit ques"
+        android:textColor="@color/design_default_color_primary" />
 </android.widget.RelativeLayout>

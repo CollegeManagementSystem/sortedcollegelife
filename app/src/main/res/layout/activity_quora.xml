@@ -11,7 +11,9 @@
         android:layout_height="50dp"
         android:text="DOUBT SESSION"
         android:textSize="20dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textStyle="bold"/>
     <Button
         android:id="@+id/quesask"
         android:layout_width="100dp"
@@ -23,6 +25,7 @@
     <android.support.v7.widget.RecyclerView
         android:id="@+id/ques"
         android:layout_below="@+id/quesask"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollbars="vertical">

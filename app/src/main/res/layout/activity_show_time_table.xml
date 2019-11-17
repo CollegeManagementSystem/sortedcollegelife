@@ -11,21 +11,26 @@
         android:layout_height="50dp"
         android:text="TIMETABLE"
         android:textSize="30dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textStyle="bold"/>
+
     <TextView
         android:id="@+id/stimetableday"
         android:layout_width="60dp"
         android:layout_height="40dp"
-        android:text="DAY"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="10dp"/>
+        android:text="DAY"
+        android:textColor="@color/design_default_color_primary" />
     <TextView
         android:id="@+id/stimetable830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:text="8:30"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetable925"
@@ -33,7 +38,8 @@
         android:layout_height="40dp"
         android:text="9:25"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetable1020"
@@ -41,7 +47,8 @@
         android:layout_height="40dp"
         android:text="10:20"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetable1125"
@@ -49,7 +56,8 @@
         android:layout_height="40dp"
         android:text="11:25"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetable1230"
@@ -57,7 +65,8 @@
         android:layout_height="40dp"
         android:text="12:30"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetable145"
@@ -65,14 +74,16 @@
         android:layout_height="40dp"
         android:text="1:45"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetable240"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:text="2:40"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetable325"
@@ -80,65 +91,71 @@
         android:layout_height="40dp"
         android:text="3:25"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginLeft="70dp"
-        android:layout_marginTop="120dp"/>
+        android:layout_marginTop="120dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon1230"
         android:layout_width="40dp"
         android:layout_height="40dp"
-
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon145"
         android:layout_width="60dp"
         android:layout_height="40dp"
-
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetablemon240"
         android:layout_width="40dp"
         android:layout_height="40dp"
-
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablemon325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -146,34 +163,39 @@
         android:layout_height="40dp"
         android:text="MONDAY"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetabletues830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetabletues925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetabletues1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetabletues1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetabletues1230"
@@ -181,7 +203,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetabletues145"
@@ -189,14 +212,16 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetabletues240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetabletues325"
@@ -204,7 +229,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="350dp"
         android:layout_marginTop="170dp"
-        />
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -212,34 +237,39 @@
         android:layout_height="40dp"
         android:text="TUESDAY"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetablewed830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablewed925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablewed1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablewed1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablewed1230"
@@ -247,7 +277,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablewed145"
@@ -255,21 +286,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetablewed240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablewed325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -277,35 +311,40 @@
         android:layout_height="40dp"
         android:text="WEDNESDAY"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu1230"
@@ -313,7 +352,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu145"
@@ -321,21 +361,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetablethu240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablethu325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -343,35 +386,40 @@
         android:layout_height="40dp"
         android:text="THURSDAY"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri1230"
@@ -379,7 +427,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri145"
@@ -387,21 +436,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/stimetablefri240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/stimetablefri325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -409,8 +461,17 @@
         android:layout_height="40dp"
         android:text="FRIDAY"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
 
-
+    <Button
+        android:id="@+id/update"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="450dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="UPDATE TIMETABLE"
+        android:textColor="@color/design_default_color_primary" />
 
 </android.widget.RelativeLayout>

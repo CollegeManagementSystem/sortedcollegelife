@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -27,12 +28,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if(FirebaseAuth.getInstance().getCurrentUser()==null)
                 {
-                    Intent I1=new Intent(MainActivity.this,studentlogin.class);
-                    startActivity(I1);
+                    Toast.makeText(MainActivity.this, "Please Select Sign up", Toast.LENGTH_SHORT).show();
 
                 }
                 else{
-                    Intent goToLogin =new Intent(MainActivity.this, studentmain.class);
+                    Intent goToLogin =new Intent(MainActivity.this, studentmainNavigation.class);
                     startActivity(goToLogin);
                     finish();
                 }
@@ -43,8 +43,9 @@ public class MainActivity extends AppCompatActivity {
         myloginteacher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent I1=new Intent(MainActivity.this,teacherlogin.class);
+                Intent I1=new Intent(MainActivity.this,studentlogin.class);
                 startActivity(I1);
+
             }
         });
     }

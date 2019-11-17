@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_class"
+            android:title="timetable"
+            android:textColor="@color/design_default_color_primary" >
+
+        </item>
+        <item android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="chat"
+            android:textColor="@color/design_default_color_primary" >
+
+        </item>
+        <item android:id="@+id/nav_doubt"
+            android:icon="@drawable/ic_doubt_ques"
+            android:title="doubt"
+            android:textColor="@color/design_default_color_primary" >
+
+        </item>
+        <item android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_timer"
+            android:title="alarm"
+            android:textColor="@color/design_default_color_primary" >
+
+        </item>
+
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_person1"
+                android:title="location"
+                android:textColor="@color/design_default_color_primary" >
+
+            </item>
+        </menu>
+    </item>
+</menu>

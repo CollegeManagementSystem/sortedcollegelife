@@ -11,21 +11,24 @@
         android:layout_height="50dp"
         android:text="Enter Details"
         android:textSize="30dp"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/timetableday"
         android:layout_width="60dp"
         android:layout_height="40dp"
         android:text="DAY"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/timetable830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:text="8:30"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/timetable925"
@@ -33,7 +36,8 @@
         android:layout_height="40dp"
         android:text="9:25"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/timetable1020"
@@ -41,7 +45,8 @@
         android:layout_height="40dp"
         android:text="10:20"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/timetable1125"
@@ -49,7 +54,8 @@
         android:layout_height="40dp"
         android:text="11:25"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/timetable1230"
@@ -57,7 +63,8 @@
         android:layout_height="40dp"
         android:text="12:30"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/timetable145"
@@ -65,14 +72,16 @@
         android:layout_height="40dp"
         android:text="1:45"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <TextView
         android:id="@+id/timetable240"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:text="2:40"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <TextView
         android:id="@+id/timetable325"
@@ -80,34 +89,39 @@
         android:layout_height="40dp"
         android:text="3:25"
         android:layout_marginTop="70dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetablemon830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablemon925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablemon1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablemon1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablemon1230"
@@ -115,7 +129,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablemon145"
@@ -123,21 +138,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetablemon240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablemon325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -145,34 +163,39 @@
         android:layout_height="40dp"
         android:text="MONDAY"
         android:layout_marginTop="120dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetabletues830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetabletues925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetabletues1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetabletues1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetabletues1230"
@@ -180,7 +203,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetabletues145"
@@ -188,14 +212,16 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetabletues240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetabletues325"
@@ -203,6 +229,7 @@
         android:layout_height="40dp"
         android:layout_marginLeft="350dp"
         android:layout_marginTop="170dp"
+        android:textColor="@color/design_default_color_primary"
      />
 
 
@@ -211,34 +238,39 @@
         android:layout_height="40dp"
         android:text="TUESDAY"
         android:layout_marginTop="170dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetablewed830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablewed925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablewed1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablewed1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablewed1230"
@@ -246,7 +278,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablewed145"
@@ -254,21 +287,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetablewed240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablewed325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -276,35 +312,40 @@
         android:layout_height="40dp"
         android:text="WEDNESDAY"
         android:layout_marginTop="220dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu1230"
@@ -312,7 +353,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu145"
@@ -320,21 +362,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetablethu240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablethu325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -342,35 +387,40 @@
         android:layout_height="40dp"
         android:text="THURSDAY"
         android:layout_marginTop="270dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri830"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="70dp"/>
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri925"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="110dp"/>
+        android:layout_marginLeft="110dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri1020"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="150dp"/>
+        android:layout_marginLeft="150dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri1125"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="190dp"/>
+        android:layout_marginLeft="190dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri1230"
@@ -378,7 +428,8 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="230dp"/>
+        android:layout_marginLeft="230dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri145"
@@ -386,21 +437,24 @@
         android:layout_height="40dp"
 
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="270dp"/>
+        android:layout_marginLeft="270dp"
+        android:textColor="@color/design_default_color_primary"/>
     <EditText
         android:id="@+id/timetablefri240"
         android:layout_width="40dp"
         android:layout_height="40dp"
 
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="310dp"/>
+        android:layout_marginLeft="310dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <EditText
         android:id="@+id/timetablefri325"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="350dp"/>
+        android:layout_marginLeft="350dp"
+        android:textColor="@color/design_default_color_primary"/>
 
 
     <TextView
@@ -408,13 +462,16 @@
         android:layout_height="40dp"
         android:text="FRIDAY"
         android:layout_marginTop="320dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/design_default_color_primary"/>
 
     <Button
         android:id="@+id/submittimetable"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:layout_marginTop="440dp"
         android:layout_marginLeft="100dp"
-        android:text="SUBMIT DETAILS"/>
+        android:layout_marginTop="440dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="SUBMIT DETAILS"
+        android:textColor="@color/design_default_color_primary" />
 </android.widget.RelativeLayout>

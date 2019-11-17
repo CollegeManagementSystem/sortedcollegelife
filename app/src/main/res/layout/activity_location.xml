@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Location">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="Choose Your Location"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/design_default_color_primary" />
+
+    <Button
+        android:id="@+id/senate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="SENATE"
+        android:textColor="@color/design_default_color_primary" />
+    <Button
+        android:id="@+id/jubliee"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="70dp"
+        android:textColor="@color/design_default_color_primary"
+        android:text="JUBLIEE"/>
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/design_default_color_primary"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="70dp"
+        android:text="SPORTS COMPLEX"/>
+    <Button
+        android:id="@+id/administration"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textColor="@color/design_default_color_primary"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="70dp"
+        android:text="ADMINISTRATION"/>
+
+
+</RelativeLayout>

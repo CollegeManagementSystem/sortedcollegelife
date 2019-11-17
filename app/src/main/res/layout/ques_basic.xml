@@ -19,10 +19,13 @@
                 android:layout_height="70dp"
                 android:layout_marginLeft="70dp"
                 android:textColor="@android:color/holo_blue_dark"/>
+
             <ImageButton
                 android:id="@+id/quesnext"
-                android:layout_width="50dp"
+                android:layout_width="80dp"
                 android:layout_height="70dp"
-                android:layout_marginLeft="360dp"/>
+                android:layout_marginLeft="360dp"
+                android:background="@color/common_google_signin_btn_text_dark_default"
+                android:src="@drawable/ic_cross" />
         </RelativeLayout>
 </RelativeLayout>
